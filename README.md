@@ -1,46 +1,15 @@
-# To-Do List Application
+Overview
+This project simulates a simple coffee machine where users can select a drink (espresso, latte, or cappuccino), and the machine checks if there are enough resources (water, milk, and coffee). If the resources are sufficient, it asks the user for payment and makes the coffee after a successful transaction.
 
-## Overview
-This is a simple To-Do List application built using Python and Tkinter for the graphical user interface (GUI). It allows users to add, delete, and manage tasks. The tasks are stored in an SQLite database for persistence.
+Features
+Drink Options: Users can choose from three drinks: espresso, latte, or cappuccino.
+Resource Management: The machine checks if there are enough ingredients before making a drink.
+Coin Processing: Users can insert coins (quarters, dimes, nickels, pennies) to pay for the drink.
+Transaction Handling: If the user provides enough money, the machine makes the coffee and deducts the appropriate amount of ingredients.
+Reports: The machine can provide a report showing the available resources (water, milk, coffee) and the current money.
 
-## Features
-- **Add Tasks**: Users can enter a task and add it to the list.
-- **Delete Tasks**: Users can remove a selected task from the list.
-- **Delete All Tasks**: Users can clear the entire task list.
-- **Persistent Storage**: Tasks are stored in an SQLite database, ensuring they remain available even after the application is closed.
-
-## Requirements
-- Python 3.x
-- Tkinter (comes pre-installed with Python)
-- SQLite3 (comes pre-installed with Python)
-
-## Installation
-1. Clone the repository or download the script.
-   ```sh
-   git clone https://github.com/Asha0509/ToDoLIst---python.git
-   ```
-2. Navigate to the project directory.
-   ```sh
-   cd ToDoLIst---python
-   ```
-3. Run the script.
-   ```sh
-   python todo_list.py
-   ```
-
-## Usage
-1. Run the script to open the To-Do List application.
-2. Enter a task in the input field and click **Add** to save it.
-3. Select a task and click **Remove** to delete it.
-4. Click **Delete All** to remove all tasks.
-5. Click **Exit / Close** to close the application.
-
-## File Structure
-- `todo_list.py` - Main script containing the application logic.
-- `listOfTasks.db` - SQLite database file (automatically created).
-
-## Contributing
-If you want to contribute to this project, feel free to fork the repository and submit a pull request.
+Requirements
+Python 3.x (No external libraries are required.)
 
 
 
